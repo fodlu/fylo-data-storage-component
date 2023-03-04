@@ -116,6 +116,15 @@ input[type="range"] {
 }
 
 @media only screen and (max-width: 375px) {
+  body {
+    width: 100%;
+    margin: 10px;
+    background-image: url("images/bg-mobile.png");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: repeat;
+  }
+
   section {
     flex-direction: column;
   }
